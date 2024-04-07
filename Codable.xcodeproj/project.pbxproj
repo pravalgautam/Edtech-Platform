@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		408E503C2BC2910600E64C6E /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408E503B2BC2910600E64C6E /* SidebarView.swift */; };
+		40A53AD42BC2944F00460091 /* SideMenuViewContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A53AD32BC2944F00460091 /* SideMenuViewContents.swift */; };
 		40BF1A122BB8B85400A8E4C0 /* CodableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A112BB8B85400A8E4C0 /* CodableApp.swift */; };
 		40BF1A142BB8B85400A8E4C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A132BB8B85400A8E4C0 /* ContentView.swift */; };
 		40BF1A162BB8B85600A8E4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BF1A152BB8B85600A8E4C0 /* Assets.xcassets */; };
@@ -17,7 +19,6 @@
 		40BF1A262BB8CB6200A8E4C0 /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A252BB8CB6200A8E4C0 /* NewsFeedView.swift */; };
 		40BF1A282BB8D1F900A8E4C0 /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A272BB8D1F900A8E4C0 /* StoreView.swift */; };
 		40BF1A2B2BB9585500A8E4C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40BF1A2A2BB9585500A8E4C0 /* GoogleService-Info.plist */; };
-		40BF1A3A2BB9738800A8E4C0 /* VideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A392BB9738800A8E4C0 /* VideoManager.swift */; };
 		40BF1A3C2BBAC0CE00A8E4C0 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A3B2BBAC0CD00A8E4C0 /* CourseView.swift */; };
 		40BF1A3E2BBACDD300A8E4C0 /* CorsesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A3D2BBACDD300A8E4C0 /* CorsesModel.swift */; };
 		40BF1A402BBAD1E500A8E4C0 /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A3F2BBAD1E500A8E4C0 /* CourseDetailView.swift */; };
@@ -27,9 +28,12 @@
 		40BF1A482BBB086F00A8E4C0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A472BBB086F00A8E4C0 /* TestView.swift */; };
 		40BF1A542BBB252D00A8E4C0 /* EnrolledPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF1A532BBB252D00A8E4C0 /* EnrolledPlaylistView.swift */; };
 		40C595B22BBDE1F000689AE9 /* EnrollmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C595B12BBDE1F000689AE9 /* EnrollmentManager.swift */; };
+		40C5F73B2BC0689C00ECC336 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5F73A2BC0689C00ECC336 /* DataItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		408E503B2BC2910600E64C6E /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		40A53AD32BC2944F00460091 /* SideMenuViewContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewContents.swift; sourceTree = "<group>"; };
 		40BF1A0E2BB8B85400A8E4C0 /* Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BF1A112BB8B85400A8E4C0 /* CodableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableApp.swift; sourceTree = "<group>"; };
 		40BF1A132BB8B85400A8E4C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +45,6 @@
 		40BF1A252BB8CB6200A8E4C0 /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
 		40BF1A272BB8D1F900A8E4C0 /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		40BF1A2A2BB9585500A8E4C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		40BF1A392BB9738800A8E4C0 /* VideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManager.swift; sourceTree = "<group>"; };
 		40BF1A3B2BBAC0CD00A8E4C0 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		40BF1A3D2BBACDD300A8E4C0 /* CorsesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorsesModel.swift; sourceTree = "<group>"; };
 		40BF1A3F2BBAD1E500A8E4C0 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		40BF1A472BBB086F00A8E4C0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		40BF1A532BBB252D00A8E4C0 /* EnrolledPlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrolledPlaylistView.swift; sourceTree = "<group>"; };
 		40C595B12BBDE1F000689AE9 /* EnrollmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollmentManager.swift; sourceTree = "<group>"; };
+		40C5F73A2BC0689C00ECC336 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +92,16 @@
 				40BF1A512BBB0F8800A8E4C0 /* Newsfeed */,
 				40BF1A522BBB0F9000A8E4C0 /* Contact */,
 				40BF1A112BB8B85400A8E4C0 /* CodableApp.swift */,
-				40BF1A392BB9738800A8E4C0 /* VideoManager.swift */,
 				40BF1A132BB8B85400A8E4C0 /* ContentView.swift */,
+				40A53AD32BC2944F00460091 /* SideMenuViewContents.swift */,
+				408E503B2BC2910600E64C6E /* SidebarView.swift */,
 				40C595B12BBDE1F000689AE9 /* EnrollmentManager.swift */,
 				40BF1A1F2BB8B90D00A8E4C0 /* TabBarView.swift */,
 				40BF1A232BB8C9B000A8E4C0 /* HomeView.swift */,
 				40BF1A152BB8B85600A8E4C0 /* Assets.xcassets */,
 				40BF1A2A2BB9585500A8E4C0 /* GoogleService-Info.plist */,
 				40BF1A172BB8B85600A8E4C0 /* Preview Content */,
+				40C5F73A2BC0689C00ECC336 /* DataItem.swift */,
 			);
 			path = Codable;
 			sourceTree = "<group>";
@@ -226,10 +232,13 @@
 				40BF1A142BB8B85400A8E4C0 /* ContentView.swift in Sources */,
 				40C595B22BBDE1F000689AE9 /* EnrollmentManager.swift in Sources */,
 				40BF1A462BBB060600A8E4C0 /* DsaTest.swift in Sources */,
+				40C5F73B2BC0689C00ECC336 /* DataItem.swift in Sources */,
+				408E503C2BC2910600E64C6E /* SidebarView.swift in Sources */,
 				40BF1A202BB8B90D00A8E4C0 /* TabBarView.swift in Sources */,
 				40BF1A3E2BBACDD300A8E4C0 /* CorsesModel.swift in Sources */,
 				40BF1A3C2BBAC0CE00A8E4C0 /* CourseView.swift in Sources */,
 				40BF1A482BBB086F00A8E4C0 /* TestView.swift in Sources */,
+				40A53AD42BC2944F00460091 /* SideMenuViewContents.swift in Sources */,
 				40BF1A542BBB252D00A8E4C0 /* EnrolledPlaylistView.swift in Sources */,
 				40BF1A122BB8B85400A8E4C0 /* CodableApp.swift in Sources */,
 				40BF1A262BB8CB6200A8E4C0 /* NewsFeedView.swift in Sources */,
@@ -238,7 +247,6 @@
 				40BF1A282BB8D1F900A8E4C0 /* StoreView.swift in Sources */,
 				40BF1A402BBAD1E500A8E4C0 /* CourseDetailView.swift in Sources */,
 				40BF1A222BB8BAE900A8E4C0 /* ContactView.swift in Sources */,
-				40BF1A3A2BB9738800A8E4C0 /* VideoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

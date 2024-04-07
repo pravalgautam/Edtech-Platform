@@ -27,3 +27,12 @@ var coursesArr = [
     CourseData(image: "c5", title: "Web Development | Aro Nui", lessons: 1, enroll: "Enroll For Free", enrollment: false, author: "Bravo", authorImage: "author5", description: "Build dynamic websites and web applications with modern web development technologies."),
     CourseData(image: "c6", title: "Graphic Design | Ule Pia", lessons: 10, enroll: "Enroll For Free", enrollment: false, author: "Patel", authorImage: "author6", description: "Explore the principles of graphic design and develop your creative skills.")
 ]
+struct PlaylistModel: Identifiable{
+
+    
+    var id = UUID()
+    var image: String
+    var title: String
+    var lessons: Int
+
+}

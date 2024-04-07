@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+import SwiftData
 
 @main
 struct YourApp: App {
@@ -18,7 +18,8 @@ struct YourApp: App {
       NavigationView {
         ContentView()
         
-      }      .environmentObject(enrollManager)
+      }     .modelContainer(for: DataItem.self)
+      .environmentObject(enrollManager)
     }
   }
 }

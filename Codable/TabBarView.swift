@@ -16,7 +16,7 @@ struct TabBarView: View {
                     Text("Store")
                 }
             
-            HomeView(course: coursesArr[0])
+            HomeView()
                 .tabItem {
                     Image(systemName: "house")
                     Text("Home")

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct CourseDetailView: View {
+    @Environment(\.modelContext) private var context
+    @State private var enrollBtn = "Enroll Now"
     var course: CourseData
     @State private var isPlaying = false
     @EnvironmentObject var enrollManager: EnrollmentManager
@@ -15,7 +17,7 @@ struct CourseDetailView: View {
     var body: some View {
         VStack {
             HStack {
-                CustomBackButton() // Custom back button implementation
+                CustomBackButton() 
                 Spacer()
             }
             .padding()
@@ -65,9 +67,10 @@ struct CourseDetailView: View {
                 }
                 Text("\(course.lessons) Lessons")
                 Button(action: {
-                    enrollManager.add(item: course)
+                    addCourse()
+                    enrollBtn = "Enrolled"
                 }) {
-                    Text("Enroll Now")
+                    Text(enrollBtn)
                         .foregroundColor(.white)
                 }
                 .frame(width: 350, height: 50)
@@ -90,6 +93,10 @@ struct CourseDetailView: View {
                 .padding()
             }
         })
+    }
+    func addCourse(){
+        let item = DataItem(title: course.title, image: course.image, lessons: course.lessons)
+        context.insert(item)
     }
 }
 
